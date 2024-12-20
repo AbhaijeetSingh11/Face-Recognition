@@ -29,11 +29,9 @@ Absolutely! Here's an explanation based on the provided data:
 The two scripts work together to first collect and then use facial data for recognition purposes.
 ### Folder Structure:
 face-recognition/
-│
-├── data/
-│   └── dataset
-│
-├── project.py
-└── test.py
+    -data/
+         - //all the .npy files will store here//
+    -project.py
+    -test.py
 
 
