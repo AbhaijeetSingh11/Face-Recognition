@@ -27,3 +27,13 @@ Absolutely! Here's an explanation based on the provided data:
     - Use these images to recognize faces in new images or video streams.
 
 The two scripts work together to first collect and then use facial data for recognition purposes.
+### Folder Structure:
+face-recognition/
+│
+├── data/
+│   └── dataset/
+│       └── [Captured .npy files will be stored here]
+│
+├── project.py
+└── test.py
+
