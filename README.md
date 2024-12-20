@@ -28,10 +28,21 @@ Absolutely! Here's an explanation based on the provided data:
 
 The two scripts work together to first collect and then use facial data for recognition purposes.
 ### Folder Structure:
+```
 face-recognition/
-    -data/
-         - //all the .npy files will store here//
-    -project.py
-    -test.py
+│
+├── data/
+│   └── [Captured .npy files will be stored here]
+│
+├── project.py
+└── test.py
+```
+
+### Explanation:
+- **face-recognition/**: This is the root directory of your project.
+- **data/**: This folder is meant to store all data-related files, including the captured images.
+- **project.py**: A script used to capture images from the webcam and save them in the `data` folder.
+- **test.py**: A script used to load the saved images from the `data` folder and make predictions for face recognition.
+
 
 
