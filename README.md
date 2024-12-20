@@ -31,9 +31,9 @@ The two scripts work together to first collect and then use facial data for reco
 face-recognition/
 │
 ├── data/
-│   └── dataset/
-│       └── [Captured .npy files will be stored here]
+│   └── dataset
 │
 ├── project.py
 └── test.py
+
 
